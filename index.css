@@ -5,7 +5,6 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 5px 20px;
 }
 
 .upper-panel {
@@ -44,7 +43,8 @@ a {
 .upper-presentation {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     padding: 50px 0;
 }
 
@@ -76,6 +76,107 @@ a {
     background-color: gray;
     text-align: center;
     align-items: center;
-    display: flex
+    display: flex;
 }
 
+.middle-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.random {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border-color: #3882F6;
+    border-style: solid;
+    margin-bottom: 5px
+}
+
+.block-text {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1F2937;
+}
+
+.testimony-panel {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 20px
+}
+
+.testimony-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: "light italic";
+    text-align: justify;
+}
+
+.testimony-author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+}
+
+.lower-panel {
+    padding: 20px;
+}
+
+.blue-panel {
+    background-color: #3882F6;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.action1 {
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.action2 {
+    color: #F9FAF8;
+}
+
+.sign2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    align-items: center;
+}
+
+.hero-panel {
+    background-color: #1F2937;
+}
+
+.credits {
+    color: #F9FAF8;
+    text-align: center;
+}
